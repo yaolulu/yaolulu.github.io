@@ -1,6 +1,7 @@
+## Introduction
 This blog is from [https://www.youtube.com/watch?v=sa-TUpSx1JA](https://www.youtube.com/watch?v=sa-TUpSx1JA)
 
-Below are some rules for regular expression.
+Below are some rules and examples for regular expression.
 
 ## 常规表达式
 
@@ -26,3 +27,30 @@ Below are some rules for regular expression.
 | ?    | 0 or One |
 | {3}  | Exact Number |
 | {3,4}  | Range of Number (Minimum, Maximum) |
+
+
+## Example1
+
+### strings
+
+    https://www.google.com
+
+    http://coreyms.com
+
+    https://youtube.com
+
+    https://www.nasa.gov
+
+### expression
+    https?://(www\.)?(\w+)(\.\w+)
+
+
+## Example2
+
+### strings
+    CoreyMSchafer@gmail.com
+    corey.schafer@university.edu
+    corey-321-schafer@my-work.net
+
+### expression
+    [a-zA-Z0-9.-]+@[a-zA-Z-]+\.(com|edu|net)
