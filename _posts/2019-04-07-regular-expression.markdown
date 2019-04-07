@@ -1,5 +1,14 @@
-This blog is from https://www.youtube.com/watch?v=sa-TUpSx1JA[https://www.youtube.com/watch?v=sa-TUpSx1JA]
-Below is some rule for regular expression.
+This blog is from [https://www.youtube.com/watch?v=sa-TUpSx1JA](https://www.youtube.com/watch?v=sa-TUpSx1JA)
+
+Below are some rules for regular expression.
+
+## 常规表达式
+
+
+| expression | meanings |
+| :--------- | :---------------------- |
+| .    | Any Character Except New Line |
+| \d   | Digit (0-9)
 
 * .    - Any Character Except New Line
 * \d   - Digit (0-9)
@@ -20,9 +29,9 @@ Below is some rule for regular expression.
 ()     - Group
 
 
-# Quantifiers:
-* *    - 0 or More
-* +    - 1 or More
+## Quantifiers:
+* \*    - 0 or More
+* \+    - 1 or More
 * ?    - 0 or One
 * {3}  - Exact Number
 * {3,4}  - Range of Number (Minimum, Maximum)
