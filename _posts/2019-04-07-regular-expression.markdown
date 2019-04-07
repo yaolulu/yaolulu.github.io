@@ -28,7 +28,7 @@ Below are some rules and examples for regular expression.
 | {3}  | Exact Number |
 | {3,4}  | Range of Number (Minimum, Maximum) |
 
-</br>
+<br />
 ## Example1
 
 ### strings
