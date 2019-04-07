@@ -19,7 +19,7 @@ Below are some rules for regular expression.
 | $    | End of a String |
 | []   | Matches Characters in brackets |
 | [^ ] | Matches Characters NOT in brackets |
-|     | Either Or |
+|   &#124;  | Either Or |
 | ()   | Group |
 | \*   | 0 or More |
 | \+   | 1 or More |
