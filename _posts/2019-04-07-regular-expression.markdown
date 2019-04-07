@@ -4,11 +4,11 @@ Below are some rules for regular expression.
 
 ## 常规表达式
 
-
 | expression | meanings |
 | :--------- | :---------------------- |
 | .    | Any Character Except New Line |
 | \d   | Digit (0-9)
+
 
 * .    - Any Character Except New Line
 * \d   - Digit (0-9)
